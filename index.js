@@ -82,6 +82,40 @@ let num = 10.2565;
 // Math.abs()
 // Math.abs(x) returns the absolute (positive) value of x
 
-console.log(Math.abs(-55));
-console.log(Math.abs(-55.5));
-console.log(Math.abs(-955));
+// console.log(Math.abs(-55));
+// console.log(Math.abs(-55.5));
+// console.log(Math.abs(-955));
+// console.log(Math.abs(4-8));
+
+// Math.ceil()
+// Math.ceil(x) returns the value of x rounded up to its nearest integer
+
+// console.log(Math.ceil(4.4));
+// console.log(Math.round(4.51));
+// console.log(Math.ceil(99.1));
+// console.log(Math.round(99.1));
+
+// Math.floor()
+// Math.floor(x)returns the value of x rounded down to its nearest integer
+// console.log(Math.floor(4.7));
+// console.log(Math.floor(99.9));
+
+// Math.min()
+// Math.min() can be used to find the lowest value in a list of program
+
+// console.log(Math.min(0,150,30,20,-8,-200));
+
+// Math.max()
+// Math.max()can be used to find the highest value in a list of program
+
+// console.log(Math.max(0,150,30,20,-8,-9))
+
+// Math.random()
+// Math.random() returns a random number between 0 (inclusive),and 1(inclusive)
+
+// console.log(Math.floor(Math.random()*10));// 0 to 9
+
+// Math.trunc()
+// the trunc() method returns the integer part of a number
+console.log(Math.trunc(4.6));
+console.log(Math.trunc(-99.1));
