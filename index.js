@@ -44,7 +44,17 @@
 let curTime = new Date();
 
 // console.log(curTime.setTime());
-console.log(curTime.setHours(5));
-console.log(curTime.setMinutes(5));
-console.log(curTime.setSeconds(5));
-console.log(curTime.setMilliseconds(5));
+// console.log(curTime.setHours(5));
+// console.log(curTime.setMinutes(5));
+// console.log(curTime.setSeconds(5));
+// console.log(curTime.setMilliseconds(5));
+
+
+
+
+//  ****------MATH-OBJECT------****
+
+// the java script math object allows you to perform mathematical tasks on numbers
+
+// console.log(Math.PI)
+console.log(Math.PI);
