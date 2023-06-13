@@ -57,4 +57,31 @@ let curTime = new Date();
 // the java script math object allows you to perform mathematical tasks on numbers
 
 // console.log(Math.PI)
-console.log(Math.PI);
+// console.log(Math.PI);
+
+//  Math.round()
+// returns the value of x rounded to its nearest integer
+
+let num = 10.2565;
+
+// console.log(Math.round(num));
+
+// Math.pow()
+// Math.pow(x, y) returns the value of x to the power of y
+
+// console.log(Math.pow(2,32));
+
+// Math.sqrt()
+// Math.sqrt(x) returns the square root of x
+
+// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(81));
+// console.log(Math.sqrt(66));
+
+
+// Math.abs()
+// Math.abs(x) returns the absolute (positive) value of x
+
+console.log(Math.abs(-55));
+console.log(Math.abs(-55.5));
+console.log(Math.abs(-955));
