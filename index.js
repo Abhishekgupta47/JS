@@ -145,3 +145,8 @@ let num = 10.2565;
 
 
 //  Navigation through the DOM
+
+
+
+//  How to search the elements and the refrences 
+//        we will see in the this file
