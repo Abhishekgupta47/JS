@@ -38,6 +38,9 @@
         h1{
             color: aquamarine;
         }
+        button{
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -60,6 +63,18 @@
         <script>
             const changeContent= () =>{
                 // we can directly write
+
+                // document.getElementById('heading').innerHTML ="welcome to the page";
+
+
+                // by taking the refreance , heading is the object here
+
+                const headingchange = document.getElementById('heading');
+                headingchange.innerHTML= "I am here for you";
+                document.getElementsByClassName
+
+            //   now the same we have is the query selector , querySelector returns the matching value whearas , querySelectorAll() will return all the elements
+
             }
         </script>
 </body>
