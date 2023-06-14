@@ -50,15 +50,15 @@
     <p>Dont forget to subscribe my channel</p>
     <h1 id="heading">changed the content of the h1</h1>
 
-    <!-- <form action="">
+    <form action="">
         <label for="">male</label>
         <input type="radio" name="gender" id="">
         <label for="">female</label>
         <input type="radio" name="gender" id="">
         <label for="">malefemale</label>
         <input type="radio" name="gender" id="">
-        </form> -->
-    
+        </form>
+      <br>
         <button onclick="changeContent()">click Me</button>
         <script>
             const changeContent= () =>{
@@ -71,7 +71,8 @@
 
                 const headingchange = document.getElementById('heading');
                 headingchange.innerHTML= "I am here for you";
-                document.getElementsByClassName
+                // console.log(getElementsByClassName('para'));
+                console.log(document.getElementsByTagName('p'))
 
             //   now the same we have is the query selector , querySelector returns the matching value whearas , querySelectorAll() will return all the elements
 
