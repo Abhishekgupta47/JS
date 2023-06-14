@@ -139,3 +139,9 @@ let num = 10.2565;
 //     location.href=
 //     "https://www.youtube.com/thapatechnical";
 // }
+ 
+
+
+
+
+//  Navigation through the DOM
