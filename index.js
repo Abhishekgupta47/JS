@@ -117,5 +117,25 @@ let num = 10.2565;
 
 // Math.trunc()
 // the trunc() method returns the integer part of a number
-console.log(Math.trunc(4.6));
-console.log(Math.trunc(-99.1));
+// console.log(Math.trunc(4.6));
+// console.log(Math.trunc(-99.1));
+
+
+//  ------*** DOM vs BOM  ***------ //
+
+// DOM-> the dom is the document object model , which deals with the document , the html elements themselves, e.g document and all traversal you would do in it , events , etc .
+
+
+// the BOM is the browser object model , which deals with browser components aside from the document , like history , location , navigator and screen ( as well as some other that vary by browser). or in simple meaning all the window operations which comes under BOM are performed using BOM
+
+
+//  Lets see more practical on history object 
+//  Function alert/confirm/prompt are a part of BOM:
+// they are directly not related to the document ,
+// but represent pure browser methods of communicating with the users
+
+// alert(location.href);
+// if(confirm("wants to visit thapaTechnical")){
+//     location.href=
+//     "https://www.youtube.com/thapatechnical";
+// }
