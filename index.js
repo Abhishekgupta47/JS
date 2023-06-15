@@ -172,3 +172,11 @@ let num = 10.2565;
 
 
 //  ******* ways of writting events in JavaScript
+
+//  1: using alert();
+//  2:By Calling a function (we already seen and most common way of writting)
+//  3: using Inline events (HTML onclick()=""property and element.onclick)
+//  4: using event listeners (addEventListener and IE's attachEvent)
+
+//  check the event html file
+
