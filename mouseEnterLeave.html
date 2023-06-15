@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+    body{
+        display: grid;
+        place-items: center;
+        background: rgba(71, 9, 24, 0.756);
+    }
+    .main-div{
+        width: 100vm;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+    #box{
+        width: 100px;
+        height: 100px;
+        background: gold;
+    }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div id="box"></div>
+    </div>
+
+    <script>
+
+     const mEnter = document.getElementById('box');
+
+     mEnter.addEventListener('mouseenter',()=>{
+        mEnter.style.backgroundColor='red';
+        console.log("mouse enter bro");
+     });
+
+     const mLeave = document.getElementById('box');
+
+     mLeave.addEventListener('mouseleave',()=>{
+        mLeave.style.backgroundColor='gold';
+        console.log("mouse leave bro");
+     })
+
+    </script>
+</body>
+</html>
