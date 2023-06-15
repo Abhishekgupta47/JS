@@ -150,3 +150,25 @@ let num = 10.2565;
 
 //  How to search the elements and the refrences 
 //        we will see in the this file
+
+
+// Section 11 *******EVENTS in JavaScript*******
+
+// HTML events are "things" that happens to html elements.
+//  whean JavaScript is used in HTML pages, JavaScript can "react" on these events.
+
+// HTML Events 
+// An HTML event can be something the browser does , or something a user does.
+//  here are some examples of HTML events :
+
+
+// An HTML web page has finished loading
+// An HTML input field was changed 
+// An HTML button was clicked 
+// Often, whean events happen , you may want to do something.
+
+//  JavaScript lets you execute code whean events are detected.
+//  JavaScript allows event handler attributes , with JavaScript code to be added to html elements
+
+
+//  ******* ways of writting events in JavaScript
