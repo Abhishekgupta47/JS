@@ -125,6 +125,29 @@
         </div>
     </div>
 
+     <script>
+        // second way of writing functions
+      const callingFunction = () =>{
+        alert('most common way of writing functions');
+      }
+
+    //    third way of writing function
+    const thirdWay = document.getElementById('thirdway');
+
+    thirdWay.onclick = function(){
+        alert('most common way of writing functions again');
+    }
+
+    //    4th way of writing of function
+
+    const fourtway = document.querySelector('#fourtway');
+    fourtway.addEventListener('click',()=>{
+        alert('I love this way of writing');
+    })
+    
+
+    </script>
+
 </body>
 
 </html>
