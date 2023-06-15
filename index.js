@@ -180,3 +180,13 @@ let num = 10.2565;
 
 //  check the event html file
 
+
+
+//  point 2 : what is event object?
+// Event object is the parent object of the event object.
+//  for example
+// MouseEvent,focusEvent,KeyboardEvent etc
+   
+//  point 3: MouseEvent in JavaScript
+// The MouseEvent Object 
+// events that occur whean the mouse interacts with HTML document belongs to the MouseEvent Object  
