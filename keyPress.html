@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+    body{
+        display: grid;
+        place-items: center;
+        background: rgba(71, 9, 24, 0.756);
+    }
+    p{
+        font-family: 'Inconsolata',sans-serif;
+        font-size: 19px;
+        color: antiquewhite;
+    }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <p>A function is triggered whean the user is pressing a key in the input field.</p>
+        <br>
+        <input type="text" class="effect-1"onkeypress="keyPress()"onkeydown="keyDown()"onkeyup="keyUp()">
+        <br/>
+        <p id="keys"></p>
+    </div>
+    <script>
+        const keyPress = () =>{
+            document.getElementById('keys').innerHTML=`you press ${event.key}and it's code is${event.code};
+        }
+    </script>
+    
+</body>
+</html>

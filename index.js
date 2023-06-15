@@ -190,3 +190,8 @@ let num = 10.2565;
 //  point 3: MouseEvent in JavaScript
 // The MouseEvent Object 
 // events that occur whean the mouse interacts with HTML document belongs to the MouseEvent Object  
+
+//  point 4 keyboardEvent in JavaScript
+// Events that occur whean user presses a key on the keyboard,
+// belongd to the keyboardEvent Object.
+// https://www.w3schools.com/jsref/obj_keyboardevent.asp
