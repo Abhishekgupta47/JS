@@ -39,10 +39,13 @@
 </style>
 <body>
      
-    <p id="myP" onmousedown="mouseDown()" onmoseup="mouseUp()">Click the text the mouseDown() function is triggered whean the mouse button is pressed down over this paragraph, and sets the color of the text to red. the mouseUp() function is triggered whean the mouse button is released, and sets the color of the text to green </p>
+    <p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">Click the text the mouseDown() function is triggered whean the mouse button is pressed down over this paragraph, and sets the color of the text to red. the mouseUp() function is triggered whean the mouse button is released, and sets the color of the text to green </p>
     <script>
         function mouseDown(){
             document.getElementById("myP").style.color="#F8B627";
+        }
+        function mouseUp(){
+            document.getElementById("myP").style.color='red'
         }
     </script>
     
