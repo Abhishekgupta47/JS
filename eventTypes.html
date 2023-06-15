@@ -12,6 +12,72 @@
             font-family: 'Inconsolata',sans-serif;
             background: #2a364f;
         }
+        h1{
+            font-family: 'Inconsolata',sans-serif;
+            color: rgba(255,255,255,0.8);
+        }
+        .content{
+            text-align: center;
+            color: rgba(255,255,255,0.4);
+        }
+        .content{
+            padding-top: 45px;
+            padding-bottom: 20px;
+        }
+        .button_container{
+            width: 176px;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding-top: 40px;
+        }
+
+        .button_su{
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            border-radius: 3px;
+            margin-bottom: 30px; 
+            box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.6);
+        }
+        .su_button_circle{
+            background-color: green;
+            border-radius: 1000px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 0;
+            margin-left: 0px;
+            margin-top: 0px;
+            pointer-events: none;
+            /* animation-timing-function: ease-in-out; */
+             
+        }
+       .button_su_inner{
+        display: inline-block;
+        background: #f8B627;
+        color: #F4F4F4;
+        font-size: 16px;
+        font-weight: normal;
+        width: 132px;
+        text-align: center;
+        border-radius: 3px;
+        transition: 400ms;
+        text-decoration: none;
+        padding: 22px;
+        z-index: 100000;
+       }
+       .button_text_container{
+        position: relative;
+        z-index:10000
+       }
+
+       .explode-circle{
+         animation: explode 0.5 forwards;
+       }
+       .desplode-circle{
+        animation: deslode 0.5 forwards
+    }
     </style>
 </head>
 
@@ -35,6 +101,24 @@
                 <a href="#" class="button_su_inner" onclick="callingFunction()">
                     <span class="button_text_container">
                         By calling a function
+                    </span>
+                </a>
+            </div>
+            <div class="button_su">
+                <span class="su_button_circle">
+                </span>
+                <a href="#" class="button_su_inner">
+                    <span class="button_text_container" id="thirdway">
+                        Inline event
+                    </span>
+                </a>
+            </div>
+            <div class="button_su">
+                <span class="su_button_circle">
+                </span>
+                <a href="#" class="button_su_inner" id="fourtway">
+                    <span class="button_text_container">
+                        Event Listner
                     </span>
                 </a>
             </div>
