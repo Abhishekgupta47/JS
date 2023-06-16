@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+        
+        body{
+            display: grid;
+            place-items: center;
+            background: #21bf9f;
+            font-family: 'Inconsolata',sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            color: black;
+        }
+        .main-div{
+            display: grid;
+            place-items: center;
+            width: 100vm;
+            height: 100vh;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div>
+            <label for="">your name => </label>
+            <input type="text" name="" id="ice">
+            <br>
+            <label>Choose an ice cream =>
+                <select name="iceCream" id="iceCreams" onchange="SVGSetElement()">
+                    <option value="">select one ...</option>
+                    <option value="chocolate">chocolate</option>
+                    <option value="sardine">Sardine</option>
+                    <option value="vanila">Vanila</option>
+                </select>
+
+            </label>
+            <br>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script>
+         const inputChange  = document.getElementById('ice');
+    </script>
+    
+</body>
+</html>

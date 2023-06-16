@@ -195,3 +195,8 @@ let num = 10.2565;
 // Events that occur whean user presses a key on the keyboard,
 // belongd to the keyboardEvent Object.
 // https://www.w3schools.com/jsref/obj_keyboardevent.asp
+
+// point 5: InputEvents in JavaScript
+// the onchange event occur whean the value of an element has been changed.
+
+//  For radiobuttons and checkboxes , the onchange event occurs whean the cheacked state has been changed.  
