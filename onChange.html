@@ -32,7 +32,7 @@
             <input type="text" name="" id="ice">
             <br>
             <label>Choose an ice cream =>
-                <select name="iceCream" id="iceCreams" onchange="SVGSetElement()">
+                <select name="iceCream" id="iceCreams" onchange="selectElement()">
                     <option value="">select one ...</option>
                     <option value="chocolate">chocolate</option>
                     <option value="sardine">Sardine</option>
@@ -46,7 +46,15 @@
     </div>
 
     <script>
-         const inputChange  = document.getElementById('ice');
+
+           const selectElement = ()=>{
+            
+         const inputChange  = document.getElementById('ice').value;
+         const iceCreams = document.getElementById('iceCreams').value;
+         
+         console.log(`${inputChange}and ${iceCreams}`);
+
+        }
     </script>
     
 </body>
