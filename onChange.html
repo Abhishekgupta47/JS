@@ -21,6 +21,9 @@
             place-items: center;
             width: 100vm;
             height: 100vh;
+            color: rgb(56, 56, 2);
+            /* font-style: italic; */
+            font-size: 27px;
         }
 
     </style>
@@ -32,7 +35,7 @@
             <input type="text" name="" id="ice">
             <br>
             <label>Choose an ice cream =>
-                <select name="iceCream" id="iceCreams" onchange="selectElement()">
+                <select name="iceCream" id="iceCreams" >
                     <option value="">select one ...</option>
                     <option value="chocolate">chocolate</option>
                     <option value="sardine">Sardine</option>
@@ -47,14 +50,20 @@
 
     <script>
 
-           const selectElement = ()=>{
+        //    const selectElement = ()=>{
             
-         const inputChange  = document.getElementById('ice').value;
+        //  const inputChange  = document.getElementById('ice').value;
+        //  const iceCreams = document.getElementById('iceCreams').value;
+        //  const result= document.getElementById('result');
+        //  result.innerHTML= `Mr ${inputChange} select ${iceCreams} ice-cream flavour`
+        // }
+        const iceCreams = document.getElementById('iceCreams');
+        iceCreams.addEventListener('change',()=>{
+            const inputChange  = document.getElementById('ice').value;
          const iceCreams = document.getElementById('iceCreams').value;
-         
-         console.log(`${inputChange}and ${iceCreams}`);
-
-        }
+         const result= document.getElementById('result');
+         result.innerHTML= `Mr ${inputChange} select ${iceCreams} ice-cream flavour`
+        })
     </script>
     
 </body>
