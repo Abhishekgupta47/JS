@@ -200,3 +200,23 @@ let num = 10.2565;
 // the onchange event occur whean the value of an element has been changed.
 
 //  For radiobuttons and checkboxes , the onchange event occurs whean the cheacked state has been changed.  
+
+
+
+
+// ********JavaScript Timing Events************
+//  the window on=bject allows execution of code at specified time entervals .
+// these time intervals are called timing events
+// the two key methods to use with JavaScript are:
+
+setTimeout(function,milliseconds)
+// Executes a function after waiting a specified number of miliseconds.
+
+setInterval(function , milliseconds)
+// same as setTimeout(),bit repeats the execution of the function continuously.
+
+//  1: setTimeout()
+
+// 2: clearTimeout
+
+// 3: setInterval
