@@ -219,4 +219,4 @@ setInterval(function , milliseconds)
 
 // 2: clearTimeout
 
-// 3: setInterval
+// 3: setInterval()
