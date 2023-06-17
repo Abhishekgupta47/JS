@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
         @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
-        body{
+
+        body {
             display: grid;
             place-items: center;
             text-align: center;
             background: gray;
             color: azure;
         }
-        button{
+
+        button {
             display: inline-block;
             background: yellowgreen;
             color: #F4F4F4;
@@ -26,15 +29,16 @@
             padding: 5px 10px;
             z-index: 100000;
             outline: none;
-            box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.6);
+            box-shadow: 0px 10px 8px -8px rgba(0, 0, 0, 0.6);
             cursor: pointer;
         }
-        button:hover{
+
+        button:hover {
             color: black;
         }
-
     </style>
 </head>
+
 <body>
     <div class="main-div">
         <div>
@@ -45,18 +49,19 @@
         </div>
     </div>
     <script>
-      
-     const showMyName = document.querySelector('#showMyName');
-     const btn = document.querySelector('#btn');
 
-       const showMyName = () => {
-        setTimeout(() => {
-            showMyName.innerHTML = "Abhishek Gupta"
-        },1000 )
+        const showMyName = document.querySelector('#showMyName');
+        const btn = document.querySelector('#btn');
 
-       }
-     btn.addEventListener('click',showMyName)
+        const showMyName = () => {
+            setTimeout(() => {
+                showMyName.innerHTML = "Abhishek Gupta"
+            }, 1000)
+
+        }
+        btn.addEventListener('click', showMyName)
 
     </script>
 </body>
+
 </html>
