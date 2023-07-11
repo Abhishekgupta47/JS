@@ -209,10 +209,10 @@ let num = 10.2565;
 // these time intervals are called timing events
 // the two key methods to use with JavaScript are:
 
-setTimeout(function,milliseconds)
+// setTimeout(function,milliseconds)
 // Executes a function after waiting a specified number of miliseconds.
 
-setInterval(function , milliseconds)
+// setInterval(function , milliseconds)
 // same as setTimeout(),bit repeats the execution of the function continuously.
 
 //  1: setTimeout()
@@ -220,3 +220,20 @@ setInterval(function , milliseconds)
 // 2: clearTimeout
 
 // 3: setInterval()
+
+
+// currying
+
+function sum(num1){
+// console.log(num1)
+return function(num2){
+    // console.log(num1,num2)
+    return function(num3){
+        console.log(num1,num2,num3)
+    }
+}
+}
+
+sum(5)(3)(8);
+
+

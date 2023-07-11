@@ -50,16 +50,17 @@
     </div>
     <script>
 
-        const showMyName = document.querySelector('#showMyName');
+        const myName = document.querySelector('#showMyName');
         const btn = document.querySelector('#btn');
 
         const showMyName = () => {
-            setTimeout(() => {
-                showMyName.innerHTML = "Abhishek Gupta"
+            myName.innerHTML="Loading......"
+            setTimeout( () => {
+                MyName.innerHTML = "Abhishek Gupta"
             }, 1000)
 
         }
-        btn.addEventListener('click', showMyName)
+        btn.addEventListener('click', showMyName);
 
     </script>
 </body>
