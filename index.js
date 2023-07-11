@@ -224,16 +224,38 @@ let num = 10.2565;
 
 // currying
 
-function sum(num1){
-// console.log(num1)
-return function(num2){
-    // console.log(num1,num2)
-    return function(num3){
-        console.log(num1,num2,num3)
-    }
-}
-}
+// function sum(num1){
+// // console.log(num1)
+// return function(num2){
+//     // console.log(num1,num2)
+//     return function(num3){
+//         console.log(num1+num2+num3)
+//     }
+// }
+// }
 
-sum(5)(3)(8);
+// 
 
+
+//   callBack Hell
+
+// setTimeout(()=>{
+//     console.log(`1 work is done`);
+//     setTimeout(()=>{
+//         console.log(`2 work is done`);
+    
+//     setTimeout(()=>{
+//         console.log(`3 work is done`);
+
+//     setTimeout(()=>{
+//         console.log(`4 work is done`);
+
+//     setTimeout(()=>{
+//         console.log(`5 work is done`);
+
+// },1000)
+//     },1000)
+// },1000)
+//     },1000)
+// },1000)
 
